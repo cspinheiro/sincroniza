@@ -1,0 +1,363 @@
+.form-control {
+    border: 1px solid #00AEA6;
+}
+
+input:-internal-autofill-selected {
+ 
+    background-color: none!important;
+}
+
+nav.navbar .logo img {
+    max-height: 60px;
+}
+
+/*.block_online_users> .card-header{
+background-color: #00384E;
+color: #D1CFCF;
+}
+
+ .block_online_users {
+background-color: #00384E;
+color: #D1CFCF;
+}
+
+.block_online_users .content .list li.listentry {
+    background-color: #F6DD70;
+  } */
+
+.btn-secondary, .btn-default, .page-top-settings-menu .dropdown>a{
+color: #fff !important;
+}
+/*
+.block{
+    background-color: #E5E5E5;
+}
+
+.block-header {
+ background-color: #E5E5E5;
+}*/
+
+body{
+color: #00384E;
+}
+
+
+.btn-outline-primary {
+    color: #00AEA6;
+    background-color: transparent;
+    background-image: none;
+    border-color: #00AEA6;
+}
+
+
+.btn-outline-primary {
+    color: #00384e;
+    border-color: #00384e;
+}
+/*
+.block > .card-header{
+ background-color: #E5E5E5;
+}*/
+
+
+.block_online_users .content .list li.listentry > a{
+  border-color: #ffffff !important;
+}
+
+.block_online_users .content .list li.listentry {
+    background-color: #F3DD80;
+   }
+body > div#page-wrapper.d-print-block:nth-child(3) > div#page.container-fluid.d-print-block:nth-child(12) > div#page-content.row.d-print-block:nth-child(2) > div#region-main-box.col-12 > section.d-print-none:nth-child(2) > aside#block-region-side-pre.block-region > section#inst32.block_online_users.block.card:nth-child(2) > div.card-body:nth-child(2) > div.card-text.content > ul.list:nth-child(2) > li.listentry > div.user:nth-child(1) > a{
+color: #fff !important;
+}
+.block_online_users .content .list li.listentry .message .icon, .block_online_users .content .list li.listentry .uservisibility .icon{
+color: #fff;
+}
+
+
+.login-container{
+max-width: 475px !important;
+}
+.login-card{
+max-width: 475px  !important;
+}
+
+.btn-primary {
+    color: #00384e;
+  
+}
+
+.navbar-light .navbar-nav .nav-link {
+    color: #00384E;
+}
+
+.alert-success {
+    color:  #00384E;
+    border: none;
+    background-color:  #03DDD5;
+}
+
+a{
+color: #09374C !important;
+}
+
+.usertext{
+color: #fff !important;
+}
+
+.text-muted{
+color: #09374C !important;
+}
+
+
+.block_online_users .content .list li.listentry .uservisibility .icon {
+    color: #00384e;
+}
+
+.block_online_users .content .list li.listentry .message .icon, .block_online_users .content .list li.listentry .uservisibility .icon {
+color: #00384e;
+}
+
+.login-panel-left .login-container .card, .login-panel-right .login-container .card {
+
+    max-width: 350px !important;
+}
+
+.login-container{
+width: 350px !important;
+}
+
+.register-card{
+width: 350px !important;
+}
+
+.d-inline {
+ display: block!important;
+}
+
+.form-group{
+ display: block!important;
+}
+
+
+.word-break {
+    word-break: keep-all !important;
+}
+
+body > div#page-wrapper.d-print-block:nth-child(3) > div#page.container-fluid.d-print-block:nth-child(12) > div#page-content.row.d-print-block:nth-child(2) > div#region-main-box.col-12 > section.d-print-none:nth-child(2) > aside#block-region-side-pre.block-region > section#inst32.block_online_users.block.card:nth-child(2) > div.card-body:nth-child(2) > div.card-text.content > ul.list:nth-child(2) > li.listentry > div.user:nth-child(1) > a {
+color: #00384E !important;
+}
+
+#fitem_id_country{
+display: none !Important;
+}
+
+#fitem_id_city{
+display: none !Important;
+}
+
+.collapsible-actions{
+display: none !Important;
+}
+
+.fitem> .col-md-3{
+max-width: 100% !important;
+}
+
+hr.linhacolor {
+border: 1px solid #red;
+}
+
+h3#yui_3_17_2_1_1635342030936_926 {
+  background-color: #B1005D !important;
+}
+
+.accordion>.card{
+border: none !important;
+}
+
+.accordion>.card-header{
+border: none !important;
+}
+
+#goto-top-link{
+margin-bottom: 30px;
+}
+
+.page-top> .breadcrumb > .breadcrumb-item{
+color: #fff !important;
+}
+
+.alert{
+color: #00384E !important ;
+border-color: #d3d3d3 !important;
+background-color: #d3d3d3 !important;
+}
+
+.alert .close {
+    font-size: 1.5rem;
+    background-color: transparent;
+    color: #00384E;
+    opacity: 1;
+}
+
+.accordion .card .card-header {
+ background-color: #B1005D;
+ color: #fff;
+}
+
+.accordion .card .card-header:hover {
+ background-color: #b1005ddb;
+ color: #fff;
+}
+
+.card-header> h3{
+color: #ffffff;
+}
+
+.sectionname{
+display: none;
+}
+
+.mynotes-pos-inline, .mynotes-pos-rb, .mynotes-pos-lb, .mynotes-pos-rt, .mynotes-pos-lt{
+background-color:  #0BD9D2;
+}
+
+.progressEventInfo{
+display: none;
+}
+.progressPercentage{
+font-size: 16px;
+}
+
+.icones-customizados-container {
+ align-items: center;
+margin-left: 100px;
+}
+
+.activity-navigation #prev-activity-link, .activity-navigation #next-activity-link {
+    white-space: pre-wrap;
+    background-color: #BC2474;
+    color: #ffffff !important;
+}
+
+.activity-navigation #next-activity-link, .activity-navigation #next-activity-link {
+    white-space: pre-wrap;
+    background-color: #BC2474;
+    color: #ffffff !important;
+}
+.activity-navigation #prev-activity-link, .activity-navigation #next-activity-link {
+white-space: pre-wrap;
+background-color: #BC2474;
+color: #ffffff !important;
+}
+
+.mynotes_base input[type="submit"], .mynotes_base input[type="submit"]:hover {
+background: #BC2474;
+color: #fff;
+}
+
+.activity-navigation{
+margin-top: -10px;
+}
+
+#next-activity-link{
+margin-top: -300px;
+}
+
+#prev-activity-link{
+margin-top: -300px;
+}
+
+.card{
+margin-top: 30px;
+}
+
+
+.lista-numero {
+    background-color: #AF0760;
+    color: #ffffff;
+    padding: 10px;
+    width: 10px;
+    float: left;
+}
+
+
+.box1 {
+    background-color: #E5E5E5;
+    padding: 10px;
+    border-left: solid 5px #af0760;
+    margin-left: 60px;
+    margin-left: 20 px !important;
+}
+
+.lista-numero {
+    border: solid 3px #AF0760!important;
+    background: transparent;
+    color: #00384E !important;
+   padding: 6px;
+    width: 50px;
+    height: 50px;
+    float: left;
+    font-weight: bold;
+    font-size: 20px;
+}
+
+
+
+.lista-customizada{
+margin-top: 10px !important;
+}
+
+.box-2 {
+     background-color: #00384e;
+    font-weight: bold;
+    padding: 30px;
+    margin-top: 30px;
+    color: #ffffff;
+ }
+
+.box-3 {
+     background-color:#E5E5E5;
+    font-weight: bold;
+    padding: 30px;
+    margin-top: 30px;
+    color: #00384E !important;
+ }
+
+.slider-tipo-1 {
+background-image: url("https://repensarcursos.com.br/temp-sincroniza/bg1.png");
+width: 100%;
+max-width: 1010px;
+height: 479px;
+}
+
+.slider-tipo-1-pagina{
+padding: 10px;
+width: 80%;
+background-color: #ffffff;
+}
+
+#nav-drawer a{
+color: #ffffff !important;
+}
+
+.navbar-dark a .icon {
+display: none !important;
+}
+
+.no-overflow {
+    overflow: hidden !important;
+}
+
+.accordion .card .card-header > a {
+    color: #fff important ;
+}
+
+.activityinstance{
+margin-bottom: 10px important;
+}
+
+body > div#page-wrapper.d-print-block:nth-child(5) > div#page.container-fluid.d-print-block:nth-child(12) > div#page-content.row.d-print-block:nth-child(2) > div#region-main-box.col-12:nth-child(2) > section#region-main.has-blocks:nth-child(1) > div#yui_3_17_2_1_1638986887081_2077.card:nth-child(1) > div#yui_3_17_2_1_1638986887081_2076.card-body > div#yui_3_17_2_1_1638986887081_2075:nth-child(3) > div#yui_3_17_2_1_1638986887081_1147.course-content:nth-child(2) > ul#yui_3_17_2_1_1638986887081_2066.topics.purity-collapsible:nth-child(2) > li#section-1.section.main.clearfix.sectiondraggable.yui3-dd-drop:nth-child(2) > div#yui_3_17_2_1_1638986887081_2065.accordion > div#yui_3_17_2_1_1638986887081_2064.card > div#section1.collapse.show:nth-child(2) > div#yui_3_17_2_1_1638986887081_2244.card-body > div#yui_3_17_2_1_1638986887081_2243.content:nth-child(3) > ul#yui_3_17_2_1_1638986887081_654.section.img-text.yui3-dd-drop:nth-child(4) > li#module-146.activity.label.modtype_label.hasinfo.yui3-dd-drop:nth-child(1) > div#yui_3_17_2_1_1638986887081_2242 > div#yui_3_17_2_1_1638986887081_2241.mod-indent-outer.w-100:nth-child(2) > div#yui_3_17_2_1_1638986887081_2240:nth-child(2) > div#yui_3_17_2_1_1638986887081_2239.contentwithoutlink:nth-child(1) > div#yui_3_17_2_1_1638986887081_2238.no-overflow > div#yui_3_17_2_1_1638986887081_2237.no-overflow > div#yui_3_17_2_1_1638986887081_2236.row:nth-child(11) > div#yui_3_17_2_1_1638986887081_2235.col-md-12 > div#card-570739 > div#yui_3_17_2_1_1638986887081_2234.card:nth-child(1) > div#yui_3_17_2_1_1638986887081_2233.card-header:nth-child(1) > a#yui_3_17_2_1_1638986887081_2232.card-link.collapsed{
+color: #ffffff !Important;
+}
