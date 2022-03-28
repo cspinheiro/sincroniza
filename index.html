@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>FORM DA CAROL</title>
+</head>
+
+<body>
+  <div class="container">
+    <h1>FORM DA CAROL</h1>
+    <form>
+      <div class="linha">
+        <div class="coluna">
+          <label for="nomeTxt">Nome</label>
+          <input type="text" name="nomeTxt" id="nomeTxt" placeholder="nome" maxlength="60" required />
+        </div>
+
+        <div class="coluna">
+          <label for="municipioTxt">Municipio</label>
+          <input type="text" name="municipioTxt" id="municipioTxt" placeholder="municipio" maxlength="60" required />
+        </div>
+      </div>
+    </form>
+  </div>
+</body>
+<script
+  src="https://write.corbpie.com/wp-content/litespeed/localres/cdnjs.cloudflare.com/ajax/libs/jquery/3.5.1/jquery.min.js"  type="text/javascript" charset="utf-8"></script>
+<script
+  src="https://write.corbpie.com/wp-content/litespeed/localres/cdnjs.cloudflare.com/ajax/libs/jquery.devbridge-autocomplete/1.4.11/jquery.autocomplete.min.js" type="text/javascript" charset="utf-8"></script>
+
+<script type="text/javascript" defer>
+  $(async function () {
+
+    // request na api oficial do IBGE
+    const dados = await fetch('https://servicodados.ibge.gov.br/api/v1/localidades/distritos');
+    
+    // parseando a response para o formato JSON
+    const dadosJson = await dados.json();
+
+    // fazendo o dataMap para a lib do autocomplete conseguir interpretar
+    const dataMap = dadosJson.map(item => { return { value: item.nome } });
+
+    // evento de autocomplete
+    $("#id_profile_field_municipio").autocomplete({
+      lookup: function (busca, done) {
+
+        // filtrando a lista de municípios de acordo com o que o usuário digita
+        const filteredMap = dataMap.filter(function (item) {
+          // expressão regular para filtrar as strings
+          const filterRegexp = new RegExp(busca, 'gim');
+          //retornamos apenas as ocorrências que tenham os trechos da string digitada
+          return filterRegexp.test(item.value);
+        });
+
+        //montando o JSON que o autocomplete irá ler para executar a funcionalidade
+        const municipio = {
+          suggestions: filteredMap
+        };
+
+        done(municipio);
+      }
+    });
+  });
+</script>
+
+</html>
